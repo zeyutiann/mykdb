@@ -1,0 +1,17 @@
+
+
+
+\\https://www.bitmex.com/api/explorer/#/OrderBook
+marketOrderbookL2:`recvTime`venue`symbol`id`side`size`price!("p"$();`$();`$();`int$();`$();`int$();`float$());
+\\https://www.bitmex.com/api/explorer/#/Quote
+marketQuote:`recvTime`venue`sym`bid`bidSize`ask`askSize!("p"$();`$();`$();`float$();`int$();`float$();`int$());
+\\ https://www.bitmex.com/api/explorer/#!/Trade/
+marketTrade:`recvTime`venue`sym`side`size`price!("p"$();`$();`$();`$();`int$();`float$());
+
+\\https://www.bitmex.com/api/explorer/#!/Announcement/Announcement_get
+announcement: `recvTime`link`title`content`eventTime!("p"$();`string$();`string$();`string$();`time$());
+
+
+\\ for day 1, I'm only interested in BTC,ETH, BNB, DOGE against USD and USDT
+
+
